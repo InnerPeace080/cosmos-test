@@ -1,0 +1,7 @@
+syntax = "proto3";
+package innerpeace080.cosmostest.cosmostest;
+
+option go_package = "github.com/InnerPeace080/cosmos-test/x/cosmostest/types";
+
+// Msg defines the Msg service.
+service Msg {}

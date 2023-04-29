@@ -1,0 +1,12 @@
+syntax = "proto3";
+package innerpeace080.cosmostest.cosmostest;
+
+import "gogoproto/gogo.proto";
+import "cosmostest/cosmostest/params.proto";
+
+option go_package = "github.com/InnerPeace080/cosmos-test/x/cosmostest/types";
+
+// GenesisState defines the cosmostest module's genesis state.
+message GenesisState {
+  Params params = 1 [(gogoproto.nullable) = false];
+}
