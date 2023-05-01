@@ -71647,6 +71647,11 @@ definitions:
     description: |-
       Version defines the versioning scheme used to negotiate the IBC verison in
       the connection handshake.
+  innerpeace080.cosmostest.cosmostest.MsgCreateGameResponse:
+    type: object
+    properties:
+      gameIndex:
+        type: string
   innerpeace080.cosmostest.cosmostest.Params:
     type: object
     description: Params defines the parameters for the module.
